@@ -12,6 +12,7 @@ header{
   border-bottom-width: 1px;
   border-bottom-color: rgb(228, 228, 228);
   border-bottom-style: solid;
+  z-index: 100;
 }
 
 .left-section{
@@ -44,6 +45,20 @@ header{
 }
 .notifications-icon{
   height: 24px;
+}
+.notifications-icon-container{
+  position: relative;
+}
+.notifications-count{
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 10px;
 }
 .current-user-icon{
   height: 32px;
