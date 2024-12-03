@@ -1,4 +1,4 @@
-header{
+.header{
   height: 55px;
   display: flex;
   vertical-align: center;
@@ -9,9 +9,7 @@ header{
   left: 0;
   right: 0;
   background-color: white;
-  border-bottom-width: 1px;
-  border-bottom-color: rgb(228, 228, 228);
-  border-bottom-style: solid;
+  border-bottom: 1px solid rgb(228, 228, 228);
   z-index: 100;
 }
 
@@ -55,7 +53,6 @@ header{
   right: -5px;
   background-color: rgb(200, 0, 0);
   color: white;
-  font-family: Roboto, Arial;
   font-size: 12px;
   padding: 2px 5px;
   border-radius: 10px;
@@ -86,7 +83,6 @@ header{
 }
 
 .search-bar::placeholder{
-  font-family: Roboto, Arial;
   font-size: 16px;
 }
 .search-button{
@@ -116,7 +112,6 @@ header{
 .upload-icon-container .tooltip,
 .youtube-apps-icon-container .tooltip,
 .notifications-icon-container .tooltip{
-  font-family: Roboto, Arial;
   position: absolute;
   background-color: gray;
   color: white;
